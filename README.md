@@ -2,7 +2,7 @@
 This repository contains everything to get a new Mac looking and feeling like home
 
 ## Terminal Preferences
-Contains all of my bash files for customisation of terminal and vim. Add to ~/
+Contains all of my bash files for customisation of terminal and vim. Add to ~/ <br>
 Window Size: 128X36
 Font: Monaco 14pt
 
