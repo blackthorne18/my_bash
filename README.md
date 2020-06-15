@@ -18,3 +18,4 @@ iGlance; Syntra-Small (Get Syntra-CLi also); <br>
 
 ## Misc
 Trackpad settings <br>
+Use Tags for folders to classify <br>
