@@ -1,0 +1,20 @@
+#!/usr/local/bin/bash
+
+cheatsheetcontents="Cheat sheet of common bash commands
+# UnZip files using tar
+\ttar -xzvf archive.tar.gz
+# Zip files using tar
+\ttar -czvf archive.tar.gz stuff
+# Search and replace using sed
+\tsed 's/string-to-replace/replace-with/g' filename.txt
+"
+
+echo -e "\x1B[32m-----------------------------------------\e[0m"
+if [[ "$#" -eq 0 ]];then
+	echo -e "$cheatsheetcontents"
+elif [[ "$#" -ne 1 ]];then
+	echo 'Too many arguments'
+else
+	echo -e "$cheatsheetcontents" | grep "$1"
+fi
+echo -e "\x1B[32m-----------------------------------------\e[0m"
